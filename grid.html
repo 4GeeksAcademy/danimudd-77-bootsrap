@@ -12,18 +12,22 @@
 </head>
 
 <body>
+<!-- top of page -->
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand"><i class="fa-brands fa-instagram"></i>
             <b>Instagram</b>
           </a>
           <div class="d-flex">
-            <!-- Button trigger modal -->
+
+<!-- Create new post button-->
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Create a new post
             </button>
-    
-            <!-- Modal -->
+
+<!-- inside create new post button-->
+
+ <!-- title -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -31,6 +35,8 @@
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+
+<!-- comment textbox -->
                   <div class="modal-body">
                     <h6> Caption:</h6>
                     <div class="form-floating">
@@ -38,12 +44,15 @@
                         style="height: 100px"></textarea>
                       <label for="floatingTextarea2">Comments</label>
                     </div>
+
+<!-- Camera and location buttons -->
                     <div>
                     <button class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
                     <button class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
                     </div>
                   </div>
-    
+
+<!-- Close and save changes buttons -->   
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
@@ -51,7 +60,8 @@
                 </div>
               </div>
             </div>
-            <!-- drop down -->
+
+<!-- settings tab -->
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -67,56 +77,78 @@
           </div>
         </div>
       </nav>
+
+<!-- page toggle -->
     <div class="toggle">
         <a href="grid.html"><i class="fa-solid fa-table-cells"></i></a>
         <a href="index.html"><i class="fa-regular fa-square"></i></a>
     </div>
 
+<!-- Photo grid -->
     <div class="grid">
+
+<!-- little dog picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2020-06/angry_chihuahua.png?itok=TWxYDbOT"
                 alt="Card image cap">
         </div>
+
+<!-- Blue Subaru picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://netrinoimages.s3.eu-west-2.amazonaws.com/2017/08/13/463730/462821/subaru_wrx_sti_2019_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_5331482.jpg"
                 alt="Card image cap">
         </div>
 
+<!-- G59 skull picture -->
         <div class="card2">
             <img class="card-img-top" src="https://i.ebayimg.com/images/g/xKcAAOSweSlhNP0Y/s-l1200.png"
                 alt="Card image cap">
         </div>
+
+<!-- Hamilton picture -->
         <div class="card2">
             <img class="card-img-top" src="https://imaging.broadway.com/images/poster-178275/w480/125175-7.jpg"
                 alt="Card image cap">
         </div>
+
+<!-- Mod pizza shield picture -->
         <div class="card2">
             <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/2/2b/MOD_Pizza_logo.svg"
                 alt="Card image cap">
         </div>
+
+<!-- Record player picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9fZzhl8Nt0HnIAwhU8MkL_Z3Y9DlJeH7-Q&s"
                 alt="Card image cap">
         </div>
+
+<!-- Zuko picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/06/Zuke-fire-Avatar-The-Last-Airbender.jpg"
                 alt="Card image cap">
         </div>
+
+<!-- Organge kitten picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://www.rover.com/blog/wp-content/uploads/cat-breathing-fast-orange-kitten.jpg"
                 alt="Card image cap">
         </div>
+
+<!-- Justin Gaethje picture -->
         <div class="card2">
             <img class="card-img-top"
                 src="https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/06/30/a2f365e2-b9da-11ea-b64b-070a892763db_image_hires_112327.jpg"
                 alt="Card image cap">
         </div>
     </div>
+    
+<!-- bootstrap and font awesome scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
